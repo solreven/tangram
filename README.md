@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Webside for Tangram Design
 
-## Getting Started
+### Dette er en nettside for Tangram Design i next.js. Den bruker Jest til testing, Clerk som auth-løsning og Sanity som backendløsning.
 
-First, run the development server:
+Kunden skal kunne logge inn og legge inn egne artikler og bilder på nettsiden sin, samt generere egne undersider for artikler og bedriftspartnere via dynamisk routing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Version history
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##### **v.0.01** - Opprettet projektet og installerte jest.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##### **v.0.02** _current_ - Enkle mockup-sider til de forskjellige seksjonene på hovedsiden.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### v.0.1 - Header med UsePathName & UseEffect
 
-## Learn More
+### v.0.2-0.4 - Design av undersider
 
-To learn more about Next.js, take a look at the following resources:
+### v.0.5 - Ferdig mobildesign
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### v.0.6 - Sanityintegrasjon + CRUD-funksjonalitet
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### v.0.7 - Autentifisering med Clerk

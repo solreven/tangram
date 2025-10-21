@@ -1,0 +1,11 @@
+.tangram_background {
+  background: red;
+}
+
+.tangram_container {
+  border: 5px solid red;
+  width: fit-content;
+  /* height: fit-content;
+  aspect-ratio: 1/1; */
+  display: flex;
+}
